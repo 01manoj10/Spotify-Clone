@@ -26,6 +26,7 @@ background-color: aliceblue;
  .brand img{
    width: 40px;
    margin: 15px;
+   border-radius: 112px;
  }
  .brand{
    display: flex;
@@ -102,6 +103,44 @@ background-color: aliceblue;
  }
  .allsong::-webkit-scrollbar{
    display: none;
+ }
+ .songinfo{
+   position: absolute;
+   left: 0px;
+   display: flex;
+   margin-left: 0px;
+   margin-bottom: 0px;
+   align-items: center;
+   /* justify-content: center; */
+   background-color: rgb(209, 238, 167);
+   max-width: 30%;
+   max-height: 50px;
+   min-height: 50px;
+   color: rgb(53, 31, 150);
+ }
+
+ .musicdetails{
+   background-color: crimson;
+    color: blue;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    max-width: 65%;
+    margin-left: 0px;
+    max-height: 22px;
+    min-height: 22px;
+    /* overflow-x: scroll; */
+    /* overflow-y: hidden;                 instead of this i used marquee to get scrolling text in html
+    overflow-x: auto; */
+ }
+ /* .musicdetails::-webkit-scrollbar{
+   display: none;   
+ } */
+ .songinfo img{
+   position: absolute;
+   left: 0px;
  }
 
 
