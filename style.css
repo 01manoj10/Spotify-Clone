@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,100&family=Ubuntu:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,100&family=Ubuntu:ital,wght@1,300&family=Varela+Round&display=swap');
+ body{
+    background-color: rgb(172, 226, 226);
+ }
+ *{
+  margin: 0;
+  padding: 0;
+ }
+ nav{
+   font-family: 'Ubuntu', sans-serif;
+background-color: aliceblue;
+ }
+ nav ul{
+   display: flex;
+   list-style-type: none;
+   align-items: center;
+   height: 59px;
+   background-color: rgb(10, 7, 7);
+   color: white;
+ }
+ nav ul li{
+   padding-right: 35px;
+ }
+ .brand img{
+   width: 40px;
+   margin: 15px;
+ }
+ .brand{
+   display: flex;
+   align-items: center;
+   font-weight: bolder;
+   font-size: larger;
+ }
+ .bottom{
+   height: 80px;
+   background-color: black;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+ }
+ #myprogressbar{
+   width: 30vw;
+ }
+ .icons{
+   margin-bottom: 10px;
+ }
+ .icons i{
+   cursor: pointer;
+   padding-right: 7px ;
+ }
+ .first{
+   min-height: 73vh;
+   max-height: 33vh;
+   
+   background-color: rgb(21, 19, 19);
+   color: white;
+   font-family: 'Oxygen', sans-serif;
+   display: flex;
+   padding: 23px;
+   width: 70%;
+ margin-left: auto;
+ margin-right: auto;
+
+   border-style: groove;
+   border-radius: 12px;
+   background-image: url("bgpic3.jpg") ;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+
+ .songitem{
+   margin: 12px 0px;
+  max-width: 90%;
+   display: flex;
+   background-color: rgb(66, 63, 63);
+   justify-content: space-between;
+   align-items: center;
+   border-radius: 12px;
+ }
+ .songitem img{
+   height: 30px;
+   margin-right: 10px;
+   margin-left: 0%;
+   border-radius: 34px;
+   
+ }
+ .timer i{
+   padding: 0px 15px;
+   padding-left: 4px;
+   cursor: pointer;
+ }
+ .allsong{
+   padding: 10px 0px;
+   max-height: 93.7%;
+   overflow-y: auto;
+   overflow-x: auto;
+   
+ }
+ .allsong::-webkit-scrollbar{
+   display: none;
+ }
+
+
+ 
