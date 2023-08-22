@@ -45,6 +45,7 @@ background-color: aliceblue;
  }
  #myprogressbar{
    width: 30vw;
+   cursor: pointer;
  }
  .icons{
    margin-bottom: 10px;
