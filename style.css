@@ -112,16 +112,16 @@ background-color: aliceblue;
    margin-bottom: 0px;
    align-items: center;
    /* justify-content: center; */
-   background-color: rgb(209, 238, 167);
+   background-color: black;
    max-width: 30%;
    max-height: 50px;
    min-height: 50px;
-   color: rgb(53, 31, 150);
+   color:white;
  }
 
  .musicdetails{
-   background-color: crimson;
-    color: blue;
+   background-color: rgb(13, 13, 13);
+    color: white;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -141,6 +141,18 @@ background-color: aliceblue;
  .songinfo img{
    position: absolute;
    left: 0px;
+ }
+ .font{
+  margin-left: 30px;
+  cursor: pointer;
+  justify-content: center;
+  text-align: center;
+  padding-right: 60px;
+  word-spacing: 15px;
+ }
+ .musicsign{
+  opacity: 0;
+  transition: opasity is ease-in;
  }
 
 
