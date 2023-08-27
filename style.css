@@ -1,160 +1,184 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,100&family=Ubuntu:ital,wght@1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,100&family=Ubuntu:ital,wght@1,300&family=Varela+Round&display=swap');
- body{
-    background-color: rgb(172, 226, 226);
- }
- *{
+
+body {
+  background-color: rgb(172, 226, 226);
+}
+
+* {
   margin: 0;
   padding: 0;
- }
- nav{
-   font-family: 'Ubuntu', sans-serif;
-background-color: aliceblue;
- }
- nav ul{
-   display: flex;
-   list-style-type: none;
-   align-items: center;
-   height: 59px;
-   background-color: rgb(10, 7, 7);
-   color: white;
- }
- nav ul li{
-   padding-right: 35px;
- }
- .brand img{
-   width: 40px;
-   margin: 15px;
-   border-radius: 112px;
- }
- .brand{
-   display: flex;
-   align-items: center;
-   font-weight: bolder;
-   font-size: larger;
- }
- .bottom{
-   height: 80px;
-   background-color: black;
-   color: white;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-direction: column;
- }
- #myprogressbar{
-   width: 30vw;
-   cursor: pointer;
- }
- .icons{
-   margin-bottom: 10px;
- }
- .icons i{
-   cursor: pointer;
-   padding-right: 7px ;
- }
- .first{
-   min-height: 73vh;
-   max-height: 33vh;
-   
-   background-color: rgb(21, 19, 19);
-   color: white;
-   font-family: 'Oxygen', sans-serif;
-   display: flex;
-   padding: 23px;
-   width: 70%;
- margin-left: auto;
- margin-right: auto;
+}
 
-   border-style: groove;
-   border-radius: 12px;
-   background-image: url("bgpic3.jpg") ;
-   background-repeat: no-repeat;
-   background-size: cover;
- }
+nav {
+  font-family: 'Ubuntu', sans-serif;
+  background-color: aliceblue;
+}
 
- .songitem{
-   margin: 12px 0px;
+nav ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  height: 59px;
+  background-color: rgb(10, 7, 7);
+  color: white;
+}
+
+nav ul li {
+  padding-right: 35px;
+}
+
+.brand img {
+  width: 40px;
+  margin: 15px;
+  border-radius: 112px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.bottom {
+  height: 80px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#myprogressbar {
+  width: 30vw;
+  cursor: pointer;
+}
+
+.icons {
+  margin-bottom: 10px;
+}
+
+.icons i {
+  cursor: pointer;
+  padding-right: 7px;
+}
+
+.first {
+  min-height: 73vh;
+  max-height: 33vh;
+
+  background-color: rgb(21, 19, 19);
+  color: white;
+  font-family: 'Oxygen', sans-serif;
+  display: flex;
+  padding: 23px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+
+  border-style: groove;
+  border-radius: 12px;
+  background-image: url("bgpic3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.songitem {
+  margin: 12px 0px;
   max-width: 90%;
-   display: flex;
-   background-color: rgb(66, 63, 63);
-   justify-content: space-between;
-   align-items: center;
-   border-radius: 12px;
- }
- .songitem img{
-   height: 30px;
-   margin-right: 10px;
-   margin-left: 0%;
-   border-radius: 34px;
-   
- }
- .timer i{
-   padding: 0px 15px;
-   padding-left: 4px;
-   cursor: pointer;
- }
- .allsong{
-   padding: 10px 0px;
-   max-height: 93.7%;
-   overflow-y: auto;
-   overflow-x: auto;
-   
- }
- .allsong::-webkit-scrollbar{
-   display: none;
- }
- .songinfo{
-   position: absolute;
-   left: 0px;
-   display: flex;
-   margin-left: 0px;
-   margin-bottom: 0px;
-   align-items: center;
-   /* justify-content: center; */
-   background-color: black;
-   max-width: 30%;
-   max-height: 50px;
-   min-height: 50px;
-   color:white;
- }
+  display: flex;
+  background-color: rgb(66, 63, 63);
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 12px;
+}
 
- .musicdetails{
-   background-color: rgb(13, 13, 13);
-    color: white;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    margin-top: auto;
-    margin-bottom: auto;
-    max-width: 65%;
-    margin-left: 0px;
-    max-height: 22px;
-    min-height: 22px;
-    /* overflow-x: scroll; */
-    /* overflow-y: hidden;                 instead of this i used marquee to get scrolling text in html
+.songitem img {
+  max-height: 30px;
+  min-height: 30px;
+  max-width: 30px;
+  margin-right: 10px;
+  margin-left: 4%;
+  border-radius: 9px;
+}
+
+.timer i {
+  padding: 0px 15px;
+  padding-left: 4px;
+  cursor: pointer;
+}
+
+.allsong {
+  padding: 10px 0px;
+  max-height: 93.7%;
+  overflow-y: auto;
+  overflow-x: auto;
+
+}
+
+.allsong::-webkit-scrollbar {
+  display: none;
+}
+
+.songinfo {
+  position: absolute;
+  left: 0px;
+  display: flex;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  align-items: center;
+  /* justify-content: center; */
+  background-color: black;
+  max-width: 30%;
+  max-height: 50px;
+  min-height: 50px;
+  color: white;
+}
+
+.musicdetails {
+  background-color: rgb(13, 13, 13);
+  color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  max-width: 65%;
+  margin-left: 0px;
+  max-height: 22px;
+  min-height: 22px;
+  /* overflow-x: scroll; */
+  /* overflow-y: hidden;                 instead of this i used marquee to get scrolling text in html
     overflow-x: auto; */
- }
- /* .musicdetails::-webkit-scrollbar{
+}
+
+/* .musicdetails::-webkit-scrollbar{
    display: none;   
  } */
- .songinfo img{
-   position: absolute;
-   left: 0px;
- }
- .font{
+.songinfo img {
+  position: absolute;
+  left: 0px;
+}
+
+.font {
   margin-left: 30px;
   cursor: pointer;
   justify-content: center;
   text-align: center;
   padding-right: 60px;
   word-spacing: 15px;
- }
- .musicsign{
+}
+
+#gif {
   opacity: 0;
-  transition: opasity is ease-in;
- }
+  transition: opacity 0.1s ease-in;
+}
 
-
- 
+@media only screen and (max-width: 1100px) {
+  body {
+    background-color: blanchedalmond;
+  }
+}
