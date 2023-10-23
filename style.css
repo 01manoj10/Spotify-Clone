@@ -29,6 +29,27 @@ nav ul li {
   padding-right: 35px;
 }
 
+#homeButton {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
 .brand img {
   width: 40px;
   margin: 15px;
@@ -139,7 +160,7 @@ nav ul li {
 }
 
 .musicdetails {
-  background-color: rgb(13, 13, 13);
+  background-color: black;
   color: white;
   display: flex;
   text-align: center;
@@ -147,7 +168,10 @@ nav ul li {
   margin-top: auto;
   margin-bottom: auto;
   max-width: 65%;
-  margin-left: 0px;
+  min-width: 65%;
+  margin-left: 10px;
+  /* padding-right: max(50px,5%); */
+  padding-left: min(70px, 5%);
   max-height: 22px;
   min-height: 22px;
   /* overflow-x: scroll; */
@@ -164,13 +188,28 @@ nav ul li {
 }
 
 .font {
-  margin-left: 30px;
-  cursor: pointer;
+  background-color: black;
+  margin-left: 0px;
   justify-content: center;
   text-align: center;
-  padding-right: 60px;
+  padding-right: max(50px, 5%);
+  padding-left: min(50px, 5%);
   word-spacing: 15px;
+  min-width: 60px;
+  max-width: 60px;
+  min-height: 20px;
+  max-height: 20px;
+
 }
+
+#lovesong {
+  cursor: pointer;
+}
+
+#linkcopy {
+  cursor: pointer;
+}
+
 
 #gif {
   opacity: 0;
